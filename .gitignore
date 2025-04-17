@@ -1,0 +1,14 @@
+# Ignore Visual Studio files
+.vs/
+.vscode/
+
+# Ignore build files
+bin/
+obj/
+
+# Ignore IDE settings
+*.user
+*.suo
+
+# Ignore system files
+Thumbs.db
