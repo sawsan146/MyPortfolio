@@ -132,7 +132,6 @@ D:\DOT NET\portfolio\obj\Debug\net8.0\scopedcss\projectbundle\portfolio.bundle.s
 D:\DOT NET\portfolio\obj\Debug\net8.0\staticwebassets.build.json
 D:\DOT NET\portfolio\obj\Debug\net8.0\staticwebassets.development.json
 D:\DOT NET\portfolio\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\DOT NET\portfolio\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\DOT NET\portfolio\obj\Debug\net8.0\portfolio.csproj.Up2Date
 D:\DOT NET\portfolio\obj\Debug\net8.0\portfolio.dll
 D:\DOT NET\portfolio\obj\Debug\net8.0\refint\portfolio.dll
@@ -140,3 +139,5 @@ D:\DOT NET\portfolio\obj\Debug\net8.0\portfolio.pdb
 D:\DOT NET\portfolio\obj\Debug\net8.0\portfolio.genruntimeconfig.cache
 D:\DOT NET\portfolio\obj\Debug\net8.0\ref\portfolio.dll
 D:\DOT NET\portfolio\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\DOT NET\Portfolio\obj\Debug\net8.0\portfolio.sourcelink.json
+D:\DOT NET\Portfolio\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

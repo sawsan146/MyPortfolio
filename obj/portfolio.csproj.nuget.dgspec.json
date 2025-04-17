@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOT NET\\portfolio\\portfolio.csproj": {}
+    "D:\\DOT NET\\Portfolio\\portfolio.csproj": {}
   },
   "projects": {
-    "D:\\DOT NET\\portfolio\\portfolio.csproj": {
+    "D:\\DOT NET\\Portfolio\\portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOT NET\\portfolio\\portfolio.csproj",
+        "projectUniqueName": "D:\\DOT NET\\Portfolio\\portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "D:\\DOT NET\\portfolio\\portfolio.csproj",
+        "projectPath": "D:\\DOT NET\\Portfolio\\portfolio.csproj",
         "packagesPath": "C:\\Users\\sawsa\\.nuget\\packages\\",
-        "outputPath": "D:\\DOT NET\\portfolio\\obj\\",
+        "outputPath": "D:\\DOT NET\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS Setup\\NuGetPackages"

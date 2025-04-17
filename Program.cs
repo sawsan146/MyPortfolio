@@ -10,10 +10,12 @@ namespace portfolio
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<Models.ApplicationDbContext>
-                (
-                options =>  options.UseSqlServer("Data Source=THAWTHONA\\SQLEXPRESS;Initial Catalog=MyPortfolio;Integrated Security=True;TrustServerCertificate=True;")
-                );
+
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            builder.Services.AddDbContext<Models.ApplicationDbContext>(options =>
+                 options.UseSqlServer(connectionString)
+                   );
 
             var app = builder.Build();
 
