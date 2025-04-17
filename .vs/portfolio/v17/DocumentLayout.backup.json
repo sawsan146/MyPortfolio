@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOT NET\\portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4A9AC3-5F44-4491-807C-231F6632EE6C}|portfolio.csproj|d:\\dot net\\portfolio\\views\\project\\allprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA4A9AC3-5F44-4491-807C-231F6632EE6C}|portfolio.csproj|solutionrelative:views\\project\\allprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4A9AC3-5F44-4491-807C-231F6632EE6C}|portfolio.csproj|d:\\dot net\\portfolio\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA4A9AC3-5F44-4491-807C-231F6632EE6C}|portfolio.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllProjects.cshtml",
+              "DocumentMoniker": "D:\\DOT NET\\portfolio\\Views\\Project\\AllProjects.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\AllProjects.cshtml",
+              "ToolTip": "D:\\DOT NET\\portfolio\\Views\\Project\\AllProjects.cshtml",
+              "RelativeToolTip": "Views\\Project\\AllProjects.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T20:05:34.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOT NET\\portfolio\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\DOT NET\\portfolio\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T20:05:21.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

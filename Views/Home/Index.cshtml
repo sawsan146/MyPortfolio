@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<div class="container mt-5">
+    <h1 class="display-4 text-center mb-4 text-primary">Welcome to My Portfolio</h1>
+    <p class="text-center text-muted">Discover more about my skills, projects, and experiences.</p>
+
+    <!-- Cards Section -->
+    <div class="row justify-content-center mt-5">
+        <!-- Projects Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg mb-4 border-light rounded-4 hover-shadow">
+                <i class="bi bi-folder2-open fs-1 text-primary p-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Projects</h5>
+                    <p class="card-text text-muted">Explore my recent projects and work.</p>
+                    <a href="/Project/Index" class="btn btn-outline-primary btn-lg rounded-pill">View Projects</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg mb-4 border-light rounded-4 hover-shadow">
+                <i class="bi bi-lightbulb fs-1 text-success p-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Skills</h5>
+                    <p class="card-text text-muted">Check out the technologies I'm proficient in.</p>
+                    <a href="/Skills/Index" class="btn btn-outline-success btn-lg rounded-pill">View Skills</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="col-md-4">
+            <div class="card shadow-lg mb-4 border-light rounded-4 hover-shadow">
+                <i class="bi bi-person-circle fs-1 text-info p-3"></i>
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Profile</h5>
+                    <p class="card-text text-muted">Learn more about me and my background.</p>
+                    <a href="/Profile/Index" class="btn btn-outline-info btn-lg rounded-pill">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download CV Button -->
+    <div class="text-center mt-4">
+        <a href="~/Files/Sawsan_Abdelaziz_resume .pdf" class="btn btn-primary btn-lg rounded-pill" download>
+            <i class="bi bi-download me-2"></i>Download My CV
+        </a>
+    </div>
+</div>
+
+<style>
+    .hover-shadow:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>

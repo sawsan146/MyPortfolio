@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- My profile picture -->
+            <img src="~/Img/ProfilePhoto.jpg" alt="Profile Picture" class="img-fluid rounded-circle" />
+        </div>
+        <div class="col-md-8">
+            <h2>Sawsan Abdel Aziz</h2>
+            <p class="lead">Full Stack Developer</p>
+            <p>
+                I am passionate about software development using ASP.NET and C#. I have experience in building database-driven applications and designing user interfaces.
+            </p>
+
+            <!-- Links to Contact page -->
+         <a href="/Home/Contact" class="btn btn-primary">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <h3>Education</h3>
+        <ul>
+            <li>Bachelor's in Computer Science - Tanta University</li>
+        </ul>
+    </div>
+
+    <div class="row mt-4">
+        <h3>Skills</h3>
+        <ul>
+            <li><a href="@Url.Action("Index", "Skills")" class="text-decoration-none">C#</a></li>
+            <li><a href="@Url.Action("Index", "Skills")" class="text-decoration-none">ASP.NET Core</a></li>
+            <li><a href="@Url.Action("Index", "Skills")" class="text-decoration-none">SQL Server</a></li>
+        </ul>
+        <a href="@Url.Action("Index", "Skills")" class="btn btn-link">View All Skills</a>
+    </div>
+
+    <div class="row mt-4">
+        <h3>Projects</h3>
+        <ul>
+            <li><a href="@Url.Action("Index", "Project")" class="text-decoration-none">TechXpress</a> - E-commerce Platform</li>
+            <li><a href="@Url.Action("Index", "Project")" class="text-decoration-none">Library Management System</a> - OOP-based application</li>
+        </ul>
+        <a href="@Url.Action("Index", "Projects")" class="btn btn-link">View All Projects</a>
+    </div>
+</div>
