@@ -5,7 +5,7 @@
 namespace portfolio.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,6 @@ namespace portfolio.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProjectTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ProjectUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     GitHubUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

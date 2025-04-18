@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOT NET\\Portfolio\\portfolio.csproj": {}
+    "D:\\DOT NET\\portfolio\\portfolio.csproj": {}
   },
   "projects": {
-    "D:\\DOT NET\\Portfolio\\portfolio.csproj": {
+    "D:\\DOT NET\\portfolio\\portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOT NET\\Portfolio\\portfolio.csproj",
+        "projectUniqueName": "D:\\DOT NET\\portfolio\\portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "D:\\DOT NET\\Portfolio\\portfolio.csproj",
+        "projectPath": "D:\\DOT NET\\portfolio\\portfolio.csproj",
         "packagesPath": "C:\\Users\\sawsa\\.nuget\\packages\\",
         "outputPath": "D:\\DOT NET\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",

@@ -11,8 +11,8 @@ using portfolio.Models;
 namespace portfolio.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250417152319_Init")]
-    partial class Init
+    [Migration("20250418183308_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,10 +41,6 @@ namespace portfolio.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProjectTitle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProjectUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
